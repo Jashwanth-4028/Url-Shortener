@@ -143,7 +143,7 @@ smartlink/
 ├── README.md
 ├── architecture.md
 ├── API_DOCUMENTATION.md
-├── DEMO_VIDEO_GUIDE.md
+├── screenshots
 └── sample.env
 ```
 
