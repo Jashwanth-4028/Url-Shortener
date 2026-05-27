@@ -2,11 +2,20 @@
 
 SmartLink is a full-stack URL shortener built for a hackathon project. You can create short links with optional custom aliases, track clicks with browser/device analytics, generate QR codes, and share a public stats page — all from a practical SaaS-style dashboard.
 
-**Demo video:** [Add your Loom or YouTube link here]
+**Demo video:** https://drive.google.com/file/d/1qXFhrtCnw5Z7wqfCLMhK8kaRt18pqUXo/view?usp=sharing
 
 ---
 
 ## Project Overview
+
+### Live Features Demonstrated
+- JWT Authentication
+- URL Shortening
+- QR Code Generation
+- Real-Time Analytics
+- Browser & Device Tracking
+- Public Stats Page
+- MongoDB Analytics Storage
 
 Most link shorteners hide analytics behind paid tiers. SmartLink focuses on what matters for a portfolio demo: fast link creation, a clean dashboard, and charts that update when someone clicks your link. The UI is intentionally simple — slate tones, one blue accent, mixed card sizes — so it feels like something a student refined over a few days, not a generic AI template.
 
@@ -57,6 +66,57 @@ Most link shorteners hide analytics behind paid tiers. SmartLink focuses on what
 | Backend | Node.js, Express, MongoDB, Mongoose |
 | Auth | JWT, bcrypt |
 | Utilities | dotenv, nanoid, qrcode, validator |
+
+---
+
+## Screenshots
+
+### Landing Page
+> Clean homepage with feature overview and modern SaaS-style layout.
+
+![Landing Page](./screenshots/landing-page.png)
+
+---
+
+### Login Page
+> JWT-based authentication with protected routes.
+
+![Login Page](./screenshots/login-page.png)
+
+---
+
+### Dashboard
+> User dashboard showing shortened URLs, click counts, and actions.
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+### URL Creation
+> Creating a short URL with custom alias and expiry date.
+
+![Create URL](./screenshots/create-url.png)
+
+---
+
+### QR Code Feature
+> Automatically generated QR code for each shortened link.
+
+![QR Code](./screenshots/qr-code.png)
+
+---
+
+### Analytics Dashboard
+> Real-time analytics including clicks, browser/device tracking, and charts.
+
+![Analytics](./screenshots/analytics.png)
+
+---
+
+### MongoDB Collections
+> MongoDB collections storing users, URLs, and visit analytics.
+
+![MongoDB](./screenshots/mongodb.png)
 
 ---
 
@@ -135,6 +195,15 @@ npm run dev
 
 - Frontend: http://localhost:5173  
 - Backend: http://localhost:5000  
+
+---
+
+## Demo Credentials
+
+```txt
+Email: demo@smartlink.dev
+Password: demo123
+```
 
 ---
 
@@ -243,16 +312,20 @@ AI assisted with boilerplate and docs; layout choices, naming, and styling were 
 3. Deploy.
 
 Update `FRONTEND_URL` on backend after Vercel deploy.
-
 ---
 
 ## Video Walkthrough
 
-See **[DEMO_VIDEO_GUIDE.md](./DEMO_VIDEO_GUIDE.md)** for:
-- Full demo script
-- Recording setup
-- Interview Q&A
-- Pre-recording checklist
+Demo Video:
+https://drive.google.com/file/d/1qXFhrtCnw5Z7wqfCLMhK8kaRt18pqUXo/view?usp=sharing
+
+The demo showcases:
+- Authentication flow
+- URL shortening
+- QR code generation
+- Real-time analytics tracking
+- MongoDB data storage
+- Backend routing and redirects
 
 ---
 
